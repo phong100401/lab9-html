@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4</title>
+    <style>
+        body{
+            font-family: Arial, Verdana, sans-serif;
+            color: #666666;
+        }
+        th{
+            border-bottom: #577fa3 solid 1px;
+            height : 25px;
+            text-align: left;
+        }
+        ul {
+            list-style-image: url("../images (2)/images/icon-plus.png");
+        }
+        li
+        {
+            padding-top:3px;
+
+        }
+        table{
+            border : white solid 1px;
+            border-radius: 5px;
+            width:800px;
+            background-color: #7b99ba;
+        }
+        #jay th{
+            background-color: #8fb3d5;
+            color: #fdfdfe;
+            text-shadow: -1px -1px #666666;
+
+        }
+        tr.even{
+            background-color: #dfe8ef;
+        }
+        tr:hover{
+            background-color: #c2e5e4;
+        }
+        tr{
+            background-color: #e7eef4;
+
+        }
+        #jay td {
+            padding: 5px 5px 5px 5px;
+        }
+        #register
+        {
+            background-color: #009866;
+            border-radius: 2px;
+            border: none;
+            height: 20px;
+            width: 70px;
+            color: white;
+            margin-left: 280px;
+        }
+
+    </style>
+</head>
+<body>
+<h1>Poetry Workshops</h1>
+<p>We will be conducting a number of poetry workshops and symposiums throughout the year.<br>
+Please note that the following events are free to members:</p>
+<ul>
+    <li>A Poetic Perspective</li>
+    <li>Wait Whitman at War</li>
+    <li>Found Poems and Outsider Poetry</li>
+</ul>
+<table id="jay">
+    <tr class="even">
+        <td></td>
+        <td>New York</td>
+        <td>Chicago</td>
+        <td>San Francisco</td>
+    </tr>
+    <tr class="even">
+        <th>A Poetic Perspective</th>
+        <td>Sat, 4 Feb 2012<br>11am-2pm</td>
+        <td>Sat, 3 Mar 2012<br>11am-2pm</td>
+        <td>Sat, 17 Mar 2012<br>11am-2pm</td>
+    </tr>
+    <tr class="even">
+        <th>Wait Whitman at War</th>
+        <td>Sat, 7 Apr 2012<br>11am-1pm</td>
+        <td>Sat, 5 May 2012<br>11am-1pm</td>
+        <td>Sat, 19 May 2012<br>11am-1pm</td>
+    </tr>
+    <tr class="even">
+        <th>Found Poems & Qutsider Poetry</th>
+        <td>Sat, 9 Jun 2012<br>11am-2pm</td>
+        <td>Sat, 7 Jul 2012<br>11am-2pm</td>
+        <td>Sat, 21 Jul 2012<br>11am-2pm</td>
+    </tr>
+    <tr class="even">
+        <th>Natural Death: An Exploration</th>
+        <td>Sat, 4 Aug 2012<br>11am-4pm</td>
+        <td>Sat, 8 Sep 2012<br>11am-4pm</td>
+        <td>Sat, 15 Sep 2012<br>11am-4pm</td>
+    </tr>
+</table>
+<fieldset style="width: 350px">
+    <legend>Register your interest</legend>
+        <label for="Your Name">Your Name:</label>
+        <input type="Your Name" id="Your Name"><br>
+        <label for="Your Email">Your Email:</label>
+        <input type="Your Email" id="Your Email"><br>
+    <p>Your closest center:
+        <select name="devices" multiple="multiple" size="1">
+            <option value="Google">New York</option>
+            <option value="Chrome">Chicago</option>
+            <option value="Safari">Francisco</option>
+        </select>
+    </p>
+    <p>Are you a member?</p>
+    <input type="radio" name="genre" value="Yes" checked="checked"> Yes
+    <input type="radio" name="genre" value="No" checked="checked"> No<br>
+</fieldset>
+<br>
+<input type="submit" value="Register" id="register">
+</body>
+</html>
